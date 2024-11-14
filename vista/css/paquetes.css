@@ -1,0 +1,26 @@
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.destinos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.destino {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.destino img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

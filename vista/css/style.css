@@ -1,0 +1,117 @@
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Encabezado */
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a7c45;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+.encabezado .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navegación dentro del encabezado */
+.encabezado nav {
+    display: flex;
+}
+
+.encabezado .nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.encabezado .nav-menu li {
+    text-transform: uppercase;
+}
+
+.encabezado .nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.encabezado .nav-menu a:hover {
+    color: #00bcd4;
+}
+
+
+
+
+
+
+
+/* Pie de página */
+.pie_pagina {
+    background-color: #255956;
+    color: #fff;
+    padding: 30px 20px;
+    font-size: 14px;
+}
+
+.pie_pagina .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.pie_pagina .descripcion,
+.pie_pagina .enlaces,
+.pie_pagina .contacto {
+    flex: 1;
+    min-width: 250px;
+}
+
+.pie_pagina h2, .pie_pagina h3 {
+    margin-top: 0;
+    color: #00bcd4;
+}
+
+.pie_pagina p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.pie_pagina .enlaces ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pie_pagina .enlaces li {
+    margin: 5px 0;
+}
+
+.pie_pagina .enlaces a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.pie_pagina .enlaces a:hover {
+    color: #00bcd4;
+}
+
+.pie_pagina .copy {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 12px;
+    color: #bbb;
+}
