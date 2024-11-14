@@ -1,0 +1,85 @@
+.inicio_article {
+    width: 100% ;
+    height: 990px;
+}
+
+.inicio_bienvenida {
+    background-color: white;
+    width: 100%;
+    height: 510px;
+}
+
+.inicio_bienvenidainfo {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 580px;
+    height: 300px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.inicio_imgbienvenida {
+    background-image: url(../img/inicio_img/descarga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 480px;
+    margin-left: 760px;
+    margin-top: -316px;
+    position: relative;
+}
+
+.inicio_toncluido {
+    background-image: url(../img/inicio_img/todoincluido.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+.inicio_toncluido_info {
+    margin-left: 64px;
+    width: 250px;
+}
+
+.inicio_hotel {
+    background-image: url(../img/inicio_img/hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+.inicio_hotel_info {
+    margin-left: 64px;
+    width: 250px;
+}
+.inicio_expunicas {
+    background-image: url(../img/inicio_img/expunicas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+.inicio_expunicas_info {
+    margin-left: 64px;
+    width: 250px;
+}
+.inicio_asesoria {
+    background-image: url(../img/inicio_img/asesoria.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+.inicio_asesoria_info {
+    margin-left: 64px;
+    width: 250px;
+}
+
+.inicio_banner {
+    width: 100%;
+    height: 475px;
+    background-image: url(../img/inicio_img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

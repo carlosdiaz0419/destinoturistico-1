@@ -1,0 +1,42 @@
+
+.nosotros_article {
+    width: 100% ;
+    height: 1300px;
+}
+.nosotros_banner {
+    width: 100%;
+    height: 400px;
+    background-image: url(..//img/nosotros_img/banner_nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nosotros_info {
+    width: 800px;
+    height: 600px;
+    margin-left: 360px;
+    background-color: white;
+    margin-top: 50px;
+}
+.nosotros_titulo {
+    text-align: left; 
+    font-family: Comic Sans MS; 
+    font-weight:bold; 
+    font-size: 30px; 
+    color: #EBD758; 
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+}
+.nosotros_maps {
+    width: 100%;
+    max-width: 600px; /* Puedes ajustar el ancho máximo */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor del mapa */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Evita desbordamiento en bordes */
+}
+
+.nosotros_maps {
+    width: 100%;
+    height: 450px; /* Ajusta la altura del iframe */
+    border: none; /* Quita el borde del iframe */
+}
