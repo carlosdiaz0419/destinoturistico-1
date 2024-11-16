@@ -2,6 +2,7 @@
 require_once("config.php");
 require("controlador/indexController.php");
 require("controlador/paquetesController.php");
+
 if (isset($_GET['p']) && method_exists('paquetesController', $_GET['p'])) {
     $metodo = $_GET['p'];
     paquetesController::{$metodo}();

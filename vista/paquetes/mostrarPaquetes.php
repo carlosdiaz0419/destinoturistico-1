@@ -17,7 +17,7 @@
         <!-- San Cristóbal de las Casas -->
         <div class="destino">
             <h2>San Cristóbal de las Casas</h2>
-            <a href="vista/img/San Cristóbal de las Casas.jpg" target="_blank">
+            <a href="index.php?p=mostrarDetallesancristobal">
                 <img src="vista/img/San Cristóbal de las Casas.jpg" alt="San Cristóbal de las Casas">
             </a>
             <p><strong>Descripción:</strong> Una encantadora ciudad colonial con calles empedradas, arquitectura histórica, y una vibrante cultura indígena.</p>
@@ -28,7 +28,7 @@
         <!-- Lagunas de Montebello -->
         <div class="destino">
             <h2>Lagunas de Montebello</h2>
-            <a href="vista/img/Lagunas de Montebello.jpg" target="_blank">
+            <a href="index.php?p=mostrarDetallemontebello">
                 <img src="vista/img/Lagunas de Montebello.jpg" alt="Lagunas de Montebello">
             </a>
             <p><strong>Descripción:</strong> Un parque nacional famoso por sus múltiples lagunas de diferentes tonalidades, rodeadas de bosques de pinos y encinos.</p>
@@ -39,7 +39,7 @@
         <!-- Palenque -->
         <div class="destino">
             <h2>Zonas Arqueológicas de Palenque</h2>
-            <a href="vista/img/Zonas Arqueológicas de Palenque.jpg" target="_blank">
+            <a href="index.php?p=mostrarDetallepalenque">
                 <img src="vista/img/Zonas Arqueológicas de Palenque.jpg" alt="Palenque">
             </a>
             <p><strong>Descripción:</strong> Una de las ciudades mayas más importantes, famosa por sus ruinas bien conservadas y por su impresionante arquitectura y arte.</p>
@@ -50,7 +50,7 @@
         <!-- Cascadas de Agua Azul -->
         <div class="destino">
             <h2>Cascadas de Agua Azul</h2>
-            <a href="vista/img/Cascadas de Agua Azul.jpg" target="_blank">
+            <a href="index.php?p=mostrarDetalleaguaazul">
                 <img src="vista/img/Cascadas de Agua Azul.jpg" alt="Cascadas de Agua Azul">
             </a>
             <p><strong>Descripción:</strong> Estas cascadas son famosas por su color azul turquesa, debido a los minerales disueltos en el agua, y están rodeadas de un exuberante paisaje selvático.</p>
@@ -61,7 +61,7 @@
         <!-- El Chiflón -->
         <div class="destino">
             <h2>Cascada El Chiflón</h2>
-            <a href="vista/img/Cascada El Chiflón.jpg" target="_blank">
+            <a href="index.php?p=mostrarDetallechiflon">
                 <img src="vista/img/Cascada El Chiflón.jpg" alt="Cascada El Chiflón">
             </a>
             <p><strong>Descripción:</strong> Una espectacular serie de cascadas en la región de Los Lagos, con una altura de más de 120 metros, rodeada de vegetación y un ambiente tranquilo.</p>

@@ -1,10 +1,49 @@
+/* Título principal */
+.tour-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    background: linear-gradient(90deg, #FF6B6B, #FFD93D);
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    width: 1290px;
+    margin-left: 50px;
+}
+
+.tour-title::before {
+    content: "✈️";
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #FFD93D;
+}
+
+.tour-title::after {
+    content: "🌍";
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #FFD93D;
+}
+
+/* Detalle de días */
 .detalle {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    position: relative;
-    left: 120px;
+    margin: 20px 0;
     width: 800px;
+    margin-left: 120px;
 }
 
 .detalle .dia {
@@ -14,7 +53,7 @@
 }
 
 .detalle .etiqueta {
-    background-color: #ffd700; /* Amarillo */
+    background-color: #ffd700;
     color: #000;
     font-weight: bold;
     padding: 10px 20px;
@@ -34,56 +73,26 @@
     margin-left: 100px;
     flex: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
 }
 
-.detalle .contenido h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.detalle .contenido p {
-    font-size: 14px;
-    color: #666;
-}
-
-.detalle .dia::before {
-    content: "";
-    width: 2px;
-    background-color: #ddd;
-    height: 100%;
-    position: absolute;
-    left: 25px;
-    top: 0;
-    z-index: -1;
-}
-
-
-
-
-
+/* Formulario */
 .for_paquete {
-    background-color: #4d4d4d; /* Fondo gris oscuro */
+    background-color: #4d4d4d;
     padding: 20px;
-    text-align: center;
     border-radius: 10px;
-    max-width: 480px;
+    color: #fff;
     margin: 20px auto;
-    color: #fff; /* Texto blanco */
-    position: relative;
-    right: 390px;
-    margin-top: 110px;
-    margin-bottom: 120px;
+    max-width: 600px;
+    text-align: center;
 }
 
 .for_paquete h2 {
-    background-color: #ffd700; /* Amarillo */
+    font-size: 1.8rem;
+    background-color: #ffd700;
+    color: #000;
     padding: 10px;
-    margin-bottom: 20px;
-    font-size: 24px;
-    text-transform: uppercase;
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 
 .for_paquete form {
@@ -97,13 +106,9 @@
     gap: 10px;
 }
 
-.for_paquete .fila input {
-    flex: 1;
-}
-
-.for_paquete input, 
+.for_paquete input,
 .for_paquete textarea {
-    width: 100%;
+    flex: 1;
     padding: 10px;
     font-size: 14px;
     border: none;
@@ -111,22 +116,18 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.for_paquete textarea {
-    resize: none;
-}
-
 .for_paquete button {
-    background-color: #ffd700; /* Amarillo */
+    background-color: #ffd700;
     color: #000;
     font-size: 16px;
+    font-weight: bold;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-weight: bold;
     text-transform: uppercase;
 }
 
 .for_paquete button:hover {
-    background-color: #e6c200; /* Amarillo más oscuro */
+    background-color: #e6c200;
 }
