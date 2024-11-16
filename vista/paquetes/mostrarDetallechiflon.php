@@ -1,5 +1,7 @@
 <?php include ("vista/layout/header.php"); ?>
 <article class="chiflon">
+<h1 class="tour-title">Explora con Nosotros</h1>
+
 <div class="detalle">
     <!-- Día 01 -->
     <div class="dia">

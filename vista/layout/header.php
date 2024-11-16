@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="vista/css/paquetes.css">
     <link rel="stylesheet" href="vista/css/inicio.css">
     <link rel="stylesheet" href="vista/css/nosotros.css">
-    <link rel="stylesheet" href="vista/css/detalleReserva.css">
+    <link rel="stylesheet" href="Vista/css/detalleReserva.css">
 
 
 </head>
