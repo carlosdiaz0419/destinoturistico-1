@@ -6,7 +6,7 @@ if (!isset($_SESSION['tipo_usuario']) || $_SESSION['tipo_usuario'] !== 'empleado
     exit();
 }
 ?>
-<article class="paquetes">
+<article class="editarBD">
 <h1>Lista de paquetes</h1>
 <div>
     <a href="index.php?d=agregarPaquete">Agregar</a>

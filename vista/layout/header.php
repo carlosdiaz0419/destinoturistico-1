@@ -19,6 +19,8 @@ $isEmployee = $isAuthenticated && $_SESSION['tipo_usuario'] === 'empleado';
     <link rel="stylesheet" href="vista/css/detalleReserva.css">
     <link rel="Stylesheet" href="vista/css/Experiencias.css">
     <link rel="Stylesheet" href="vista/css/Testimonios.css">
+    <link rel="Stylesheet" href="vista/css/editarBD.css">
+
 
 </head>
 <body>
@@ -28,11 +30,19 @@ $isEmployee = $isAuthenticated && $_SESSION['tipo_usuario'] === 'empleado';
         </div>
         <nav>
             <ul class="nav-menu">
-                <li><a href="index.php">Inicio</a></li>
-                <li><a href="index.php?i=mostrarNosotros">Sobre Nosotros</a></li>
-                <li><a href="index.php?p=mostrarPaquetes">Reservar</a></li>
-                <li><a href="index.php?i=mostrarExperiencias">Experiencias</a></li>
-                <li><a href="index.php?i=mostrarTestimonios">Testimonios</a></li>
+                <a href="index.php">Inicio</a>
+                <a href="index.php?i=mostrarNosotros">Sobre Nosotros</a>
+                <a href="index.php?p=mostrarPaquetes">Reservar</a>
+                <a href="index.php?i=mostrarExperiencias">Experiencias</a>
+                <a href="index.php?i=mostrarTestimonios">Testimonios</a>
+                <?php if ($isEmployee): ?>
+                <a href="index.php?d=editarBD">Editar</a>
+                <?php endif; ?>
+                <?php if ($isAuthenticated): ?>
+                    <a href="index.php?s=logout">Cerrar Sesión</a>
+                <?php else: ?>
+                    <a href="index.php?s=mostrarSesion">Iniciar Sesión</a>
+                <?php endif; ?>
             </ul>
         </nav>
     </header>

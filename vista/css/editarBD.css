@@ -1,0 +1,92 @@
+.editarBD {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.editarBD h1 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+}
+
+.editarBD a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.editarBD a:hover {
+    background-color: #0056b3;
+}
+
+.editarBD table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.editarBD th, .editarBD td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.editarBD thead {
+    background-color: #007BFF;
+    color: white;
+}
+
+.editarBD tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.editarBD tbody tr:hover {
+    background-color: #e6f7ff;
+}
+
+.editarBD th {
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.editarBD td {
+    font-size: 0.9em;
+}
+
+.editarBD .table a {
+    padding: 5px 10px;
+    font-size: 0.8em;
+    margin: 0 5px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.editarBD .table a:hover {
+    background-color: #218838;
+}
+
+.editarBD .table a:last-child {
+    background-color: #dc3545;
+}
+
+.editarBD .table a:last-child:hover {
+    background-color: #c82333;
+}
