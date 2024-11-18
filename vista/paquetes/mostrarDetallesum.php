@@ -42,5 +42,12 @@
             <button type="hidden" name="p" value="reservar">Comprar</button>
         </form>
     </div>
+    <script>
+         // Mostrar mensaje de éxito si se encuentra el parámetro 'success' en la URL
+         const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.has('success')) {
+                alert(urlParams.get('success')); // Muestra el mensaje de éxito en un cuadro emergente
+            }
+    </script>
 </article>
 <?php require("vista/layout/footer.php"); ?>

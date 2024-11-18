@@ -45,7 +45,8 @@ class paquetesController{
         $id_servicios=1;
         $paquetesModel = new paquetesModel();
         $paquetesModel->guardarReserva($nombre,$apellido,$telefono,$correo,$curp,$pasajeros, $precio, $id_paquete, $estatus,$id_servicios,$id_tipo_servicio);
-        header("location:".urlsite."index.php?p=mostrarDetallesumidero");
+        header("location:".urlsite."index.php?p=mostrarDetallesumidero&success=Compra realizada con éxito.");
+        exit();
 
     }
     public static function reservarSancristobal(){
